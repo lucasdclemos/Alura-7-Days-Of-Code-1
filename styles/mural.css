@@ -1,0 +1,42 @@
+.mural {
+    margin: 0px 80px;
+    padding: 0px 256px;
+}
+
+.mural__area {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.cargo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.mural__area-cargo {
+    padding: 24px;
+    border-radius: 16px;
+    border: solid #EAECF0 1px;
+    color: #101828;
+}
+
+.mural__area-titulo {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.lista-container {
+    display: flex;
+    gap: 24px;
+}
+
+.modelo,
+.salario {
+    font-size: 16px;
+    font-weight: 500;
+    color: #667085;
+}

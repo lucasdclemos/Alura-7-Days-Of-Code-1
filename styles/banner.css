@@ -1,0 +1,26 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5em;
+    padding: 96px 0px;
+}
+
+.banner__sobre-nos {
+    font-size: 16px;
+    color: #8E2424;
+    font-weight: 600;
+}
+
+.banner__pergunta {
+    font-size: 48px;
+    font-weight: 600;
+    color: #101828;
+}
+
+.banner__resposta {
+    align-self: center;
+    font-size: 20px;
+    font-weight: 400;
+    width: 47%;
+}

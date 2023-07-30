@@ -1,0 +1,37 @@
+.informacoes{
+    display: grid;
+    padding-left: 112px;
+    padding-right: 112px;
+    padding-bottom: 96px;
+    gap: 32px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.titulo-projetos-concluidos,
+.titulo-colaboradores,
+.titulo-reviews,
+.titulo-downloads {
+    color: #8E2424;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.projetos-concluidos,
+.colaboradores,
+.reviews,
+.downloads{
+    color: #101828;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.projetos-concluidos-texto,
+.colaboradores-texto,
+.reviews-texto,
+.downloads-texto{
+    color: #667085;
+    font-size: 16px;
+    font-weight: 400;
+}

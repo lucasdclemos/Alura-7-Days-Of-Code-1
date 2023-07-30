@@ -1,0 +1,40 @@
+.relatos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 96px 112px;
+    padding: 64px;
+    background-color: rgba(195, 25, 25, 0.03);
+}
+
+.relatos__abertura {
+    font-size: 14px;
+    font-weight: 600;
+    color: #8E2424;
+}
+
+.relatos__relato {
+    padding-top: 16px;
+    font-size: 36px;
+    font-weight: 500;
+    color: #101828;
+    margin-bottom: 32px;
+}
+
+.relatos img {
+    align-self: center;
+    width: fit-content;
+    margin-bottom: 16px;
+}
+
+.relatos__nome {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(16, 24, 40, 1);
+    margin-bottom: 4px;
+}
+
+.relatos__cargo {
+    font-size: 14px;
+    color: #667085;
+}
